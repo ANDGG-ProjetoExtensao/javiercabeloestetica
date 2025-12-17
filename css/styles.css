@@ -386,8 +386,29 @@ section{
     transition: transform 0.5s ease;
 }
 
+.about-image2 {
+    flex: 1;
+    max-width: 600px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.about-image2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
 .round-image {
     border-radius: 50%;
+    border: 4px solid var(--secondary-color); 
+}
+
+.square-image {
+    border-radius: 5%;
     border: 4px solid var(--secondary-color); 
 }
 
